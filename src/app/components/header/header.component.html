@@ -1,0 +1,15 @@
+<header class="G-flex-center-between">
+  <div class="logo">
+    <img src="assets/img/Dananz.png" alt="logo">
+  </div>
+  <div class="menu-bar">
+    <img src="assets/img/icons8-menu-rounded-30.png" alt="menu" (click)="toggleMenu = !toggleMenu">
+    <ul *ngIf="toggleMenu" class="G-flex-center-between">
+      <li>Home</li>
+      <li>About us</li>
+      <li>Services</li>
+      <li>Our teams</li>
+      <li>Contanct us</li>
+    </ul>
+  </div>
+</header>

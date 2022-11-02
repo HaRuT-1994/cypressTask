@@ -1,0 +1,45 @@
+@import 'src/assets/styles/variables.scss';
+@import 'src/assets/styles/mixins.scss';
+
+h1 {
+  text-align: center;
+}
+
+.p1 {
+  width: 25vw;
+  text-align: center;
+}
+
+.txt-boxes {
+ div {
+  margin: 20px;
+ }
+}
+
+.img-boxes {
+  margin-top: 20px;
+  img {
+    width: 48%;
+    margin: 0 1%;
+  }
+}
+
+.img-box {
+  margin-top: 20px;
+  img {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.contact {
+  margin-top: 20px;
+  color: white;
+  background-color: $app-color;
+
+  button {
+    color: $app-color;
+    background-color: white;
+    padding: 5px 8px;
+  }
+}
